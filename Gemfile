@@ -38,3 +38,5 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 gem 'will_paginate'
+
+gem 'bcrypt', '~> 3.0'

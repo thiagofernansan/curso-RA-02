@@ -7,6 +7,8 @@ JobBoard::Application.routes.draw do
   delete "comments/:id", to: "comments#destroy", as: :comment
   get "hello/world"
 
+  resources :companies, only: [:new, :create]
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
